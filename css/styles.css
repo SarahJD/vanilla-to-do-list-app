@@ -1,0 +1,70 @@
+body {
+font: normal normal 13px/16px "Open Sans", sans-serif;
+background: #90ADC6;
+}
+
+.container {
+padding: 20px;
+width: 300px;
+margin: 0 auto;
+margin-top: 40px;
+background: #FAD02C;
+border-radius: 5px;
+color: #333652;
+}
+
+form {
+display: inline-block;
+}
+
+input {
+padding: 4px 15px 4px 5px;
+}
+
+#button {
+display: inline-block;
+background-color:#E9EAEC;
+color:#333652;
+border-radius: 5px;
+text-align:center;
+margin-top:2px;
+padding: 5px 15px;
+}
+
+#button:hover {
+cursor: pointer;
+opacity: .8;
+}
+
+ol {
+	padding-left: 20px;
+}
+
+ol li {
+	padding: 5px;color:#333652;
+}
+
+ol li:nth-child(even) {
+	background: #dfdfdf;
+}
+
+li:hover {
+  cursor: pointer;
+ }
+
+
+.cross-out-button {
+  background: none;
+	border: none;
+	float: right;
+	color: #333652;
+	font-weight: 800;
+}
+
+.cross-out {
+	text-decoration: line-through;
+}
+
+.delete {
+	display: none;
+}
